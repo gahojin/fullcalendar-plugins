@@ -41,6 +41,7 @@
   "scripts": {
     "build": "rolldown -c",
     "prepublishOnly": "pnpm run build",
+    "prepack": "cp ../../README.md ./",
     "lint": "biome check --write .",
     "lint:ci": "biome ci .",
     "check": "tsc --noEmit",
@@ -60,6 +61,9 @@
     "date-fns": "^4"
   },
   "peerDependenciesMeta": {
+    "@date-fns/tz": {
+      "optional": true
+    },
     "date-fns": {
       "optional": true
     }

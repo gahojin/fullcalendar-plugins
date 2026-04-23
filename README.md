@@ -5,6 +5,13 @@
 
 fullcalendar用のプラグイン集
 
+## date-fns-timezone
+
+```typescript
+import dateFnsTimezonePlugin from '@gahojin-inc/fullcalendar-plugins/date-fns-timezone'
+```
+
+FullCalendarのタイムゾーン処理にdate-fnsを使用するプラグイン
 
 
 ## ライセンス
