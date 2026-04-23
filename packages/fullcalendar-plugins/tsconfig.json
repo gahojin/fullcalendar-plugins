@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+    "outDir": "dist",
+    "lib": ["ES2022", "DOM"],
+    "types": ["@types/node", "vitest/globals", "vite/client", "jest-extended"]
+  },
+  "include": ["src"],
+  "exclude": ["dist", "node_modules"]
+}

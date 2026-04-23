@@ -1,0 +1,34 @@
+{
+  "$schema": "https://turborepo.org/schema.json",
+  "dangerouslyDisablePackageManagerCheck": true,
+  "tasks": {
+    "build": {
+      "outputs": ["dist/**"],
+      "dependsOn": ["^build"]
+    },
+    "check": {
+      "cache": false,
+      "dependsOn": ["^check"]
+    },
+    "check:packagejson": {
+      "cache": false,
+      "dependsOn": ["^check:packagejson"]
+    },
+    "lint": {
+      "cache": false,
+      "dependsOn": ["^lint"]
+    },
+    "lint:ci": {
+      "cache": false,
+      "dependsOn": ["^lint:ci"]
+    },
+    "test:unit": {
+      "cache": true,
+      "dependsOn": ["^test:unit"]
+    }
+  },
+  "remoteCache": {
+    "enabled": false
+  },
+  "globalDependencies": ["tsconfig.base.json"]
+}

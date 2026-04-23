@@ -1,0 +1,27 @@
+{
+  "name": "exampels",
+  "license": "Apache-2.0",
+  "private": true,
+  "sideEffects": false,
+  "type": "module",
+  "scripts": {
+    "lint": "biome check --write src",
+    "start": "vite serve",
+    "check": "tsc --noEmit",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@date-fns/tz": "1.4.1",
+    "@fullcalendar/daygrid": "6.1.20",
+    "@fullcalendar/interaction": "6.1.20",
+    "@fullcalendar/react": "6.1.20",
+    "@fullcalendar/timegrid": "6.1.20",
+    "@gahojin-inc/fullcalendar-plugins": "link:../fullcalendar-plugins",
+    "date-fns": "4.1.0",
+    "react": "19.2.5",
+    "react-dom": "19.2.5"
+  },
+  "devDependencies": {
+    "vite": "8.0.8"
+  }
+}
