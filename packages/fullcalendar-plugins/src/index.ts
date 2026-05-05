@@ -1,3 +1,3 @@
-import dateFnsTimezonePlugin from './date-fns-timezone'
+import dateFnsTimezonePlugin from './date-fns-timezone.js'
 
 export { dateFnsTimezonePlugin }
