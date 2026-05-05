@@ -39,7 +39,7 @@
     }
   },
   "scripts": {
-    "build": "rolldown -c",
+    "build": "vite build",
     "prepublishOnly": "pnpm run build",
     "prepack": "cp ../../README.md ./",
     "lint": "biome check --write .",
