@@ -17,9 +17,11 @@
     "@fullcalendar/react": "6.1.20",
     "@fullcalendar/timegrid": "6.1.20",
     "@gahojin-inc/fullcalendar-plugins": "link:../fullcalendar-plugins",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
     "date-fns": "4.1.0",
-    "react": "19.2.5",
-    "react-dom": "19.2.5"
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
   },
   "devDependencies": {
     "vite": "8.0.10"
