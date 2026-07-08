@@ -50,9 +50,9 @@
     "test:unit": "vitest --passWithNoTests --run --coverage"
   },
   "devDependencies": {
-    "@fullcalendar/core": "6.1.21",
-    "@date-fns/tz": "1.5.0",
-    "date-fns": "4.4.0"
+    "@fullcalendar/core": "catalog:",
+    "@date-fns/tz": "catalog:",
+    "date-fns": "catalog:"
   },
   "peerDependencies": {
     "@fullcalendar/core": "^6",
