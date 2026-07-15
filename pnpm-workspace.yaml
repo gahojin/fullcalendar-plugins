@@ -8,8 +8,10 @@ catalog:
   date-fns: 4.4.0
   react: &react_ver 19.2.7
   react-dom: *react_ver
+  rolldown: 1.1.5
+  rolldown-plugin-dts: 0.27.8
   turbo: 2.10.2
-  typescript: 6.0.3
+  typescript: 7.0.2
   unplugin-dts: 1.0.3
   vite: 8.1.2
   vitest: &vitest_ver 4.1.9
@@ -22,19 +24,18 @@ catalog:
   '@fullcalendar/react': *fullcalendar_ver
   '@fullcalendar/timegrid': *fullcalendar_ver
   '@types/node': 26.1.0
-  '@types/react': '19.2.17'
-  '@types/react-dom': '19.2.3'
+  '@types/react': 19.2.17
+  '@types/react-dom': 19.2.3
   '@vitejs/plugin-react': 6.0.3
   '@vitest/coverage-v8': *vitest_ver
   '@vitest/expect': *vitest_ver
   '@vitest/mocker': *vitest_ver
   '@vitest/spy': *vitest_ver
 
-
 overrides:
-  '@vitest/expect': *vitest_ver
-  '@vitest/mocker': *vitest_ver
-  '@vitest/spy': *vitest_ver
+  '@vitest/expect': 'catalog:'
+  '@vitest/mocker': 'catalog:'
+  '@vitest/spy': 'catalog:'
 
 # リリースから一定時間経過していないか、信頼性低下したパッケージはインストールしない
 minimumReleaseAge: 2880 # 2d
