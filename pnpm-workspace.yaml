@@ -8,14 +8,14 @@ catalog:
   date-fns: 4.4.0
   react: &react_ver 19.2.7
   react-dom: *react_ver
-  rolldown: 1.1.5
-  rolldown-plugin-dts: 0.27.8
-  turbo: 2.10.2
+  rolldown: 1.2.0
+  rolldown-plugin-dts: 0.27.14
+  turbo: 2.10.5
   typescript: 7.0.2
   unplugin-dts: 1.0.3
-  vite: 8.1.2
-  vitest: &vitest_ver 4.1.9
-  '@biomejs/biome': 2.5.2
+  vite: 8.1.5
+  vitest: &vitest_ver 4.1.10
+  '@biomejs/biome': 2.5.4
   '@date-fns/tz': 1.5.0
   '@fast-check/vitest': 0.4.1
   '@fullcalendar/core': &fullcalendar_ver 6.1.21
@@ -23,7 +23,7 @@ catalog:
   '@fullcalendar/interaction': *fullcalendar_ver
   '@fullcalendar/react': *fullcalendar_ver
   '@fullcalendar/timegrid': *fullcalendar_ver
-  '@types/node': 26.1.0
+  '@types/node': 26.1.1
   '@types/react': 19.2.17
   '@types/react-dom': 19.2.3
   '@vitejs/plugin-react': 6.0.3
@@ -33,6 +33,7 @@ catalog:
   '@vitest/spy': *vitest_ver
 
 overrides:
+  rolldown: 'catalog:'
   '@vitest/expect': 'catalog:'
   '@vitest/mocker': 'catalog:'
   '@vitest/spy': 'catalog:'
