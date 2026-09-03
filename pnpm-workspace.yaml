@@ -8,13 +8,13 @@ catalog:
   date-fns: 4.4.0
   react: &react_ver 19.2.7
   react-dom: *react_ver
-  rolldown: 1.2.5
+  rolldown: 1.2.6
   rolldown-plugin-dts: 0.28.2
-  turbo: 2.10.11
+  turbo: 2.10.12
   typescript: 7.0.2
   vite: 8.2.2
   vitest: &vitest_ver 4.1.11
-  '@biomejs/biome': 2.5.9
+  '@biomejs/biome': 2.5.10
   '@date-fns/tz': 1.5.0
   '@fast-check/vitest': 0.4.1
   '@fullcalendar/core': &fullcalendar_ver 6.1.21
@@ -22,9 +22,9 @@ catalog:
   '@fullcalendar/interaction': *fullcalendar_ver
   '@fullcalendar/react': *fullcalendar_ver
   '@fullcalendar/timegrid': *fullcalendar_ver
-  '@types/node': 26.2.0
+  '@types/node': 26.4.0
   '@types/react': 19.2.18
-  '@types/react-dom': 19.2.4
+  '@types/react-dom': 19.2.5
   '@vitejs/plugin-react': 6.1.0
   '@vitest/coverage-v8': *vitest_ver
   '@vitest/expect': *vitest_ver
